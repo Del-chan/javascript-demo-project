@@ -1,0 +1,22 @@
+{
+  "name": "javascript-demo-project",
+  "version": "1.0.0",
+  "description": "Basic JavaScript project for demonstration of programming concepts",
+  "main": "app/library.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Philipeano/javascript-demo-project.git"
+  },
+  "author": "Philip Newman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Philipeano/javascript-demo-project/issues"
+  },
+  "homepage": "https://github.com/Philipeano/javascript-demo-project#readme"
+}
