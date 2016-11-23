@@ -5,32 +5,32 @@
 var chai = require('chai');
 var assert = chai.assert;
 
-var myApp = require('.app/library.js');
+var myApp = require('../app/library.js');
 
 describe("Test for proper arithmetic functionality", function() {
-  it("should return Y as average for A, B, C", function() {
-    assert(myApp.computeAverage(A,B,C) == Y);
+  it("should return 2 as average for 1, 2, 3", function() {
+    assert(myApp.computeAverage(1,2,3) == 3);
   })
-  it("should return Y as average for A, B, C", function() {
-    assert(myApp.computeAverage(A,B,C) == Y);
+  it("should return 5 as average for 3, 7, 5", function() {
+    assert(myApp.computeAverage(3, 7, 5) == 5);
   })
-  it("should return Y as factorial for X", function() {
-    assert(myApp.computeFactorial(X) == Y);
+  it("should return 120 as factorial for 5", function() {
+    assert(myApp.computeFactorial(5) == 120);
   })
 })
 
 
 describe("Test for temperature conversion functionality", function() {
   it("should return X for Celcius value Y", function() {
-    assert(myApp.convertTempCtoF(Y) == X);
+    assert(myApp.convertTempCtoF(40) == 104);
   })
   it("should return X for Celcius value Y", function() {
-    assert(calendar.convertTempCtoF(Y) == X);
+    assert(myApp.convertTempCtoF(60) == 140);
   })
   it("should return Y for Fahrenheit value X", function() {
-    assert(calendar.convertTempFtoC(X) == Y);
+    assert(myApp.convertTempFtoC(140) == 60);
   })
   it("should return Y for Fahrenheit value X", function() {
-    assert(calendar.convertTempFtoC(X) == Y);
+    assert(myApp.convertTempFtoC(104) == 40);
   })
 })
