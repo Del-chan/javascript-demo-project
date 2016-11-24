@@ -17,13 +17,18 @@ describe("Test for proper arithmetic functionality", function() {
   it("should return 5 as average for 15, 20, 25", function() {
     assert(myApp.computeAverage(15, 20, 25) == 20);
   })
+});
+describe("Test for compute factorial", function(){
   it("should return 120 as factorial for 5", function() {
     assert(myApp.computeFactorial(5) == 120);
   })
   it("should return 24 as factorial for 4", function() {
     assert(myApp.computeFactorial(4) == 24);
   })
-})
+  it("should return 720 as factorial for 6", function() {
+    assert(myApp.computeFactorial(6) == 720);
+  })
+});
 
 
 describe("Test for temperature conversion functionality", function() {
