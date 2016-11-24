@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Philipeano/javascript-demo-project/issues"
   },
-  "homepage": "https://github.com/Philipeano/javascript-demo-project#readme"
+  "homepage": "https://github.com/Philipeano/javascript-demo-project#readme",
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
 }
